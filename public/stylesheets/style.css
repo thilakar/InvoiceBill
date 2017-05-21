@@ -1,0 +1,94 @@
+body {
+  margin:0px;
+  font: 12px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding:0px;
+}
+a {
+  color: #00B7FF;
+}
+h1, p, ul {margin:0px; padding:0px;}
+li {list-style-type:none;}
+.headerContainer {
+	overflow:hidden;
+	background:#323332;
+	height:50px;
+}
+.leftHeader, .rightHeader {
+	display:inline-block;
+	margin:10px;
+}
+.leftHeader {
+	float:left;
+	color:#817D7D;
+}
+.rightHeader {
+	float:right;
+	color:#fff;
+	font-size:16px;
+}
+.balanceDue {text-align: right; height:20px; background:#f6f6f6; padding:5px; }
+
+/*Invoice Bill Container*/
+.container {
+	padding:5px;
+	color:#a29f9f;
+
+}
+.customerDetails, .invoiceDetails {display:inline-block;}
+.customerDetails span {
+	display:block;
+	margin-top:5px;
+}
+.customerDetails span.customerName {
+	font-weight:bold;
+	color:#333;
+	font-size:14px;
+}
+.invoiceDetails {
+	float:right;
+}
+.invoiceDetails label {
+	display:inline-block;
+	margin-top:10px;
+}
+.invoiceDetails .leftLabel {
+	text-align: right;
+	width:175px;
+	margin-right:20px;
+}
+.invoiceDetails .rightLabel {
+	color:#000;
+}
+.itemDetails {
+	margin-top:10px;
+	clear:right;
+	padding:10px;
+}
+.itemDetails li {
+	display:inline-block;
+	vertical-align: top;
+	padding: 10px 0px;
+}
+.itemDetails li span{
+	display:block;
+}
+.itemDetails li span.itemTitle {
+	font-weight: bold;
+	color:#333;
+}
+.itemDetailsTitle {
+	font-size:14px;
+	font-weight:bold;
+}
+.itemDetails ul {border-bottom:solid 1px #ccc;}
+.itemDetails li.sNo {width:20%;}
+.itemDetails li.itemDescription {width:60%;}
+.itemDetails li.itemAmount {width:20%; text-align: right}
+.totalAmount {margin-top:10px; color:#333; background:#e4e4e4; padding:10px; overflow: hidden}
+.greeting {float:left;}
+.amountDetails {float:right;}
+.totalAmount div label {display:inline-block; margin-top:10px;}
+.totalAmount div label.amountLeftLable {width:100px;}
+.totalAmount div label.amountRightLable {text-align: right; width:100px;}
+.amount {font-weight:bold;}
+.balDue .amount {font-weight:bold; font-size:14px;}
